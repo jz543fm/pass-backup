@@ -54,7 +54,7 @@ pass git remote remove origin
 
 ### What if passwords changes?
 
-If passwords changes and you want to commit the changes to the proper git repo use command below:
+If passwords changes and you want to commit the changes to the proper git repository use command below:
 
 ```bash
 pass git push
