@@ -3,6 +3,7 @@
 I recommend to use passphrase with the GPG keys
 
 Backup scripts for [pass, the standard unix password manager](https://www.passwordstore.org) tool to manage your passwords
+
 Fast tool how to back up your passwords with simple Bash scripts
 
 [pass man](https://git.zx2c4.com/password-store/about/)
