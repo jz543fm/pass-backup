@@ -22,7 +22,7 @@ Firstly you need to create a new git repository where you want to back up (gitla
 
 
 ```bash
-./git-init.sh
+./pass-init.sh
 ```
 
 ## Export and back up GPG key
@@ -31,7 +31,7 @@ Secondly for exporting and backuping your private GPG key throught git repositor
 
 ```bash
 ./gpg-export.sh #Exports your private GPG key to the file ~/.password-store/my-private-key.asc
-./git-init.sh #Commits the file ~/.password-store/my-private-key.asc to the yours git repository
+./pass-init.sh #Commits the file ~/.password-store/my-private-key.asc to the yours git repository
 ```
 
 ### Restore GPG keys and passwords
@@ -39,5 +39,5 @@ Secondly for exporting and backuping your private GPG key throught git repositor
 For the restoring use the bash script `git-restore.sh`, this will restore your git repository that contains back up for the pass, firstly you clone the repository and afterwards you restore your GPG keys, that is used for restoring your passwords
 
 ```bash
-./git-restore.sh
+./pass-restore.sh
 ```
