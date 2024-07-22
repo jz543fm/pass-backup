@@ -50,7 +50,7 @@ For removing git remove remote you need to use command bellow, then if you want 
 pass git remote remove origin
 ```
 
-## FAQ? 
+## FAQ
 
 ### What if passwords changes?
 
