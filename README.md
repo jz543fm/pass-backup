@@ -42,16 +42,20 @@ For the restoring use the bash script `pass-restore.sh`, this will restore your 
 ./pass-restore.sh
 ```
 
-### What if passwords changes?
-
-```bash
-pass git push
-```
-
 ### Remove git remote
 
 For removing git remove remote you need to use command bellow, then if you want to backup to second git repository you can reuse the script `pass-init.sh`
 
 ```bash
 pass git remote remove origin
+```
+
+## FAQ? 
+
+### What if passwords changes?
+
+If passwords changes and you want to commit the changes to the proper git repo use command below:
+
+```bash
+pass git push
 ```
